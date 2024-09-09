@@ -19,7 +19,7 @@ export default function About() {
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS</p>
+              <p>Project Management</p>
               <hr
                 style={{
                   width: "50%",
@@ -27,7 +27,7 @@ export default function About() {
               />
             </div>
             <div className="about-skill">
-              <p>HTML & CSS</p>
+              <p>Full Stack Web Development</p>
               <hr
                 style={{
                   width: "50%",
@@ -35,7 +35,7 @@ export default function About() {
               />
             </div>
             <div className="about-skill">
-              <p>HTML & CSS</p>
+              <p>Mobile App Development</p>
               <hr
                 style={{
                   width: "50%",
@@ -44,7 +44,7 @@ export default function About() {
 
             </div>
                           <div className="about-skill">
-                <p>HTML & CSS</p>
+                <p>Generative Ai applications</p>
                 <hr
                   style={{
                     width: "50%",
