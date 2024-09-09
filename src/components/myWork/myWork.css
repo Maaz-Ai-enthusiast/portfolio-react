@@ -216,6 +216,13 @@ height: 40px;
             }
 
 
+            .mywork-container img{
+
+
+max-width: 300px;
+
+            }   
+
             .mywork-showmore{
 
                 padding: 10px 20px;
