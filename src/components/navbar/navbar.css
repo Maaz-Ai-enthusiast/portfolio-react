@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Ageta';
+    src: url('./../../assets/fonts/ageta-chubby-demo/Ageta\ Chubby\ Italic\ Demo.otf') format('otf');
+    
+}
+
+.navbar{
+
+display: flex;
+ align-items: center;
+ justify-content: space-between;
+padding: 0 30px;
+ /* background-color: yellow; */
+ font-family: 'Ageta';
+ height: 100px;
+
+}
+
+.nav-menu{
+
+
+display: flex;
+align-items: center;
+list-style: none;
+gap: 60px;
+font-size: 20px;
+
+}
+
+.nav-connect{
+
+padding: 10px 20px ;
+font-weight: 700;
+border-radius: 50px;
+background: linear-gradient(267deg,#DA7c25 ,#b923e1 );
+cursor: pointer;
+transition: .5s;
+
+}
+
+.nav-connect:hover{
+
+transform: scale(1.05);
+
+}
+.nav-menu li{
+
+display: flex;
+flex-direction: column;
+gap: 5px;
+cursor: pointer;
+
+}
+
+.nav-menu li img{
+
+display: flex;
+margin: auto;
+
+}
+
+.anchor-link{
+
+text-decoration: none;
+color: white;
+
+}
+
+
+.nav-mob-open,.nav-mob-close {
+
+  display: none;
+
+}
+
+
+
+@media (max-width: 1050px) {
+  
+
+  .nav-connect{
+
+    display: none;
+    
+    }
+
+}
+
+
+
+@media (max-width: 992px) {
+  
+  .navbar{
+
+
+    justify-content: space-between;
+    padding: 0 40px;
+    
+     }
+
+
+     .nav-menu{
+
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      gap: 20px;
+      justify-content: flex-start;
+      height: 100vh;
+      width: 350px;
+      right: -350px;
+      background: linear-gradient(267deg,#DA7c25 ,#b923e1 );
+      top: 0;
+      padding: 100px 10px;
+      transition: .5s;
+      z-index: -2;
+      display: none;
+      
+      }
+
+
+      .nav-connect{
+
+        display: none;
+        
+        }
+        
+        .nav-mob-open{
+        
+        display: block;
+        
+        }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+  
+  .navbar{
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 40px;
+    
+     }
+
+
+     .nav-menu{
+
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      gap: 20px;
+      justify-content: flex-start;
+      height: 100vh;
+      width: 350px;
+      right: -350px;
+      background: linear-gradient(267deg,#DA7c25 ,#b923e1 );
+      top: 0;
+      padding: 100px 10px;
+      transition: .5s;
+      z-index: -2;
+      display: none;
+      
+      }
+
+
+      .nav-connect{
+
+        display: none;
+        
+        }
+        
+        .nav-mob-open{
+        
+        display: block;
+        
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px){
+
+
+ .navbar{
+
+display: flex;
+justify-content: space-between;
+position: relative;
+padding: 0 10px;
+
+ }
+
+.nav-menu{
+
+display: flex;
+flex-direction: column;
+position: absolute;
+gap: 20px;
+justify-content: flex-start;
+height: 100vh;
+width: 350px;
+right: -350px;
+background: linear-gradient(267deg,#DA7c25 ,#b923e1 );
+top: 0;
+padding: 100px 10px;
+transition: .5s;
+z-index: -2;
+display: none;
+
+}
+
+.nav-connect{
+
+display: none;
+
+}
+
+.nav-mob-open{
+
+display: block;
+padding-right: 20px;
+
+}
+
+
+}
